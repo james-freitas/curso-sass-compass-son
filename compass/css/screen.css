@@ -1,0 +1,41 @@
+/* line 56, icon/*.png */
+.icon-sprite, .icon-download {
+  background-image: url('/images/icon-s4a1b975a9b.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-download {
+  background-position: 0 0;
+}
+/* line 59, ../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-download:hover, .icon-download.download-hover {
+  background-position: 0 -302px;
+}
+
+/* line 9, ../sass/screen.scss */
+.icon-download {
+  width: 302px;
+  height: 302px;
+}
+
+/* line 14, ../sass/screen.scss */
+.box {
+  border: 1px solid red;
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: red;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+/* line 22, ../sass/screen.scss */
+.box:hover {
+  background: blue;
+  -moz-box-shadow: 0px 5px #333333;
+  -webkit-box-shadow: 0px 5px #333333;
+  box-shadow: 0px 5px #333333;
+}

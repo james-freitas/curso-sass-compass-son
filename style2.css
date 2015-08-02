@@ -1,0 +1,21 @@
+body {
+  font-size: 20px; }
+
+.box, .vermelho, .laranja {
+  border: 5px solid;
+  padding: 20px;
+  margin: 20px auto;
+  border-color: #1f1f1f;
+  background-color: #3e5680; }
+  .box em, .vermelho em, .laranja em {
+    font-weight: bold; }
+
+.vermelho {
+  border-color: #a74738;
+  background-color: #ff755f; }
+
+.laranja {
+  border-color: #87662d;
+  background-color: #ffb435; }
+
+/*# sourceMappingURL=style2.css.map */

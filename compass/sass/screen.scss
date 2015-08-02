@@ -1,0 +1,29 @@
+$default-text-shadow-color: rgba(red, 0.6);
+$default-text-shadow-blur: 5px;
+$default-text-shadow-v-offset: 2px;
+
+@import "compass";
+@import "icon/*.png";
+@include all-icon-sprites;
+
+.icon-download {
+  width: 302px;
+  height: 302px;
+}
+
+
+
+.box {
+  border: 1px solid red;
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: red;
+  @include transition;
+  &:hover {
+    background: blue;
+    $default-box-shadow-blur: 90px;
+    @include single-box-shadow;
+  }
+}
